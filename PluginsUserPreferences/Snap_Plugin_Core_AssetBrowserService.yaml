@@ -1,0 +1,5 @@
+ExternalSources:
+  type: "std::map<Es::Uuid, Es::Path>"
+  value:
+    - ef3d4a2e-804f-4542-8773-b858eb28cee8: /Users/michaelchaves/Library/Mobile Documents/com~apple~CloudDocs/Downloads/immersethebay-main/Assets/voicePortalLoader.js
+  options: 4
