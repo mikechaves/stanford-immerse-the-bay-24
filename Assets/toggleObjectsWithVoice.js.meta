@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/811df98c-d373-41c1-a0cf-229e2ad25d10>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 742326a9-7aed-4de2-8e26-560e4beaf3cc
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 742326a9-7aed-4de2-8e26-560e4beaf3cc
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 7b6a1162-51d6-45fd-a02e-ab249240d265
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/e09839d6-74e4-4d00-bb5c-d3838cc8f508>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/7b6a1162-51d6-45fd-a02e-ab249240d265>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    objectA: false
+    objectB: false
+    objectC: false
+    objectD: false
+    objectE: false
+    objectF: false
+    vmlModule: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - vmlModule: !<reference.VoiceMLModule> 00000000-0000-0000-0000-000000000000
+      objectA: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectB: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectC: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectD: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectE: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectF: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

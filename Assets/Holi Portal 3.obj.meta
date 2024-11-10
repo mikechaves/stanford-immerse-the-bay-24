@@ -1,0 +1,337 @@
+- !<AssetImportMetadata/53f21f4a-852c-4c0c-9c04-c1d72227b2dc>
+  ImportedAssetIds:
+    0836641c0dc9ef03: !<reference> 8b12b005-01f0-444b-bcae-e6fd9226be57
+    15303c2f63628bfc: !<reference> 09aa8a71-6277-4cff-a2a6-070c531f7c56
+    2b7b5a7b8c9991d3: !<reference> d962c6b6-0e08-4d0d-9756-fa8e4cd59968
+    66780cf3a4dcb2b8: !<reference> 9ebf5329-0fae-4918-bc4b-5e73df940e84
+    6a107184523aa814: !<reference> 886787f9-42bd-43ad-82d0-244241be25ed
+    76df8caa246d1a44: !<reference> 6948d393-90c7-4932-b0af-945f3d246b4d
+    7e0ecfe083367ca9: !<reference> 2ee50874-8785-4ab7-baa9-1bbec0b4a64d
+    81d0e941c671ca4f: !<reference> bf0ee9f4-eef2-4fdc-9619-f57f3100002f
+    94d78db71e87e7a0: !<reference> b50ff374-cb8b-43fa-9941-03cdc77e8fda
+    9f0ecf1ad411d33f: !<reference> 00c60e28-7e90-4887-a2b2-7e7479d9262a
+    Meshes/Cube.001: !<reference> c6da06aa-9f5a-4888-87c4-4a4374e506b9
+    Meshes/Cube.002: !<reference> 70b01f9c-fb7a-400c-8164-36647e408084
+    Meshes/Cube.004: !<reference> b67b2792-2a3c-4e78-ace1-9979e5f29441
+    Meshes/Cube.005: !<reference> 41292bd9-e3e1-4053-b9c8-c50e0563038a
+    Meshes/Cube.006: !<reference> 86492e31-ee43-41d0-b414-d20c9964e384
+    Meshes/Cylinder.001: !<reference> 0dc90413-24e0-4795-be21-da8942fc5a56
+    Meshes/Plane: !<reference> 592b25ec-c900-4ed3-8556-3d35597ed21f
+    Scene: !<reference> 9c1021df-e37b-4fcb-a9e3-7c751da83eb9
+    def9e8dd49b6e6d4: !<reference> 741ab284-0e32-4a13-9216-f8182fe83ec7
+    e042c94ee9c94151: !<reference> 9d918559-ab61-4cf8-bbed-6647359f99cd
+    e980e231b0ecda99: !<reference> 3795baba-a409-4cdf-8d18-b567b02a5beb
+    eea672087bf92e24: !<reference> 73196403-f1a9-425b-b9a7-524c916714ac
+    f25fd41933240f9d: !<reference> 6a26d90a-b823-47bf-bdec-eea6f358ccd7
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> 9c1021df-e37b-4fcb-a9e3-7c751da83eb9
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> f458513e-a2b5-46a2-aa9b-5964aadbaf33
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase/45e01a77-584e-447b-b4b9-220409f29050>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitize
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings/ca3a9e71-25d4-4c45-821a-de2ac2af58b4>
+    Presets:
+      None Compression: !<SingleCompressionSettings/e35dd166-51d6-484a-a070-6af462de5061>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/0806de4d-9bf6-4c26-b772-307f17ea0080>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> c6da06aa-9f5a-4888-87c4-4a4374e506b9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/24210b08-5afd-41b1-9f44-126ac6673b2e>
+  PrefabRemaps:
+    []
+  Name: Cube.005
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cb3ce6ab-eb81-44b2-b1ac-766237454ee5
+- !<SceneObject/269e6e60-957e-4fd0-82dd-119a2a9815e4>
+  PrefabRemaps:
+    []
+  Name: Cube.006
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 63f34af3-7765-4acd-b61e-29bb410ef4ab
+- !<SceneObject/4584814c-0116-4d9a-9750-985d3879fabd>
+  PrefabRemaps:
+    []
+  Name: Plane
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 76d99c5d-b550-4fed-8375-8212ef127d57
+- !<SceneObject/49b63096-fb03-416a-950b-39437a094edf>
+  PrefabRemaps:
+    []
+  Name: Cube.004
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9168a890-5464-4615-82c1-08da8e3cfc6c
+- !<ObjectPrefab/609f9cbc-ed7a-49fa-84e1-e422a8d8b9aa>
+  PackagePath: ""
+  objects:
+    - !<own> dc6364cd-8efe-4e39-a348-3c7ec66bfc23
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/63f34af3-7765-4acd-b61e-29bb410ef4ab>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 86492e31-ee43-41d0-b414-d20c9964e384
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/76d99c5d-b550-4fed-8375-8212ef127d57>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 592b25ec-c900-4ed3-8556-3d35597ed21f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7714ec72-8304-49a6-84d2-3492a50df586>
+  PrefabRemaps:
+    []
+  Name: Cube.002
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d41be51d-3e14-4831-b2dc-a5ba6fb3649d
+- !<RenderMeshVisual/9168a890-5464-4615-82c1-08da8e3cfc6c>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> b67b2792-2a3c-4e78-ace1-9979e5f29441
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/a0858ec8-7dea-4465-86ee-206b151a5933>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 0dc90413-24e0-4795-be21-da8942fc5a56
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a7f35e43-0c57-438c-9c09-5e6b01cc5138>
+  PrefabRemaps:
+    []
+  Name: Cylinder.001
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a0858ec8-7dea-4465-86ee-206b151a5933
+- !<RenderMeshVisual/cb3ce6ab-eb81-44b2-b1ac-766237454ee5>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 41292bd9-e3e1-4053-b9c8-c50e0563038a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/d41be51d-3e14-4831-b2dc-a5ba6fb3649d>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 70b01f9c-fb7a-400c-8164-36647e408084
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/dc6364cd-8efe-4e39-a348-3c7ec66bfc23>
+  PrefabRemaps:
+    []
+  Name: Holi Portal 3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 269e6e60-957e-4fd0-82dd-119a2a9815e4
+    - !<own> a7f35e43-0c57-438c-9c09-5e6b01cc5138
+    - !<own> f97e3337-6b09-46c4-aa06-48db83117225
+    - !<own> 7714ec72-8304-49a6-84d2-3492a50df586
+    - !<own> 49b63096-fb03-416a-950b-39437a094edf
+    - !<own> 24210b08-5afd-41b1-9f44-126ac6673b2e
+    - !<own> 4584814c-0116-4d9a-9750-985d3879fabd
+  Components:
+    []
+- !<ObjectPrefabAssetData/f458513e-a2b5-46a2-aa9b-5964aadbaf33>
+  SourceRemaps:
+    - 00c60e28-7e90-4887-a2b2-7e7479d9262a: 4584814c-0116-4d9a-9750-985d3879fabd
+    - 09aa8a71-6277-4cff-a2a6-070c531f7c56: 7714ec72-8304-49a6-84d2-3492a50df586
+    - 2ee50874-8785-4ab7-baa9-1bbec0b4a64d: a7f35e43-0c57-438c-9c09-5e6b01cc5138
+    - 3795baba-a409-4cdf-8d18-b567b02a5beb: 269e6e60-957e-4fd0-82dd-119a2a9815e4
+    - 6948d393-90c7-4932-b0af-945f3d246b4d: 63f34af3-7765-4acd-b61e-29bb410ef4ab
+    - 6a26d90a-b823-47bf-bdec-eea6f358ccd7: 49b63096-fb03-416a-950b-39437a094edf
+    - 73196403-f1a9-425b-b9a7-524c916714ac: f97e3337-6b09-46c4-aa06-48db83117225
+    - 741ab284-0e32-4a13-9216-f8182fe83ec7: 24210b08-5afd-41b1-9f44-126ac6673b2e
+    - 886787f9-42bd-43ad-82d0-244241be25ed: 76d99c5d-b550-4fed-8375-8212ef127d57
+    - 8b12b005-01f0-444b-bcae-e6fd9226be57: a0858ec8-7dea-4465-86ee-206b151a5933
+    - 9d918559-ab61-4cf8-bbed-6647359f99cd: d41be51d-3e14-4831-b2dc-a5ba6fb3649d
+    - 9ebf5329-0fae-4918-bc4b-5e73df940e84: dc6364cd-8efe-4e39-a348-3c7ec66bfc23
+    - b50ff374-cb8b-43fa-9941-03cdc77e8fda: 0806de4d-9bf6-4c26-b772-307f17ea0080
+    - bf0ee9f4-eef2-4fdc-9619-f57f3100002f: cb3ce6ab-eb81-44b2-b1ac-766237454ee5
+    - d962c6b6-0e08-4d0d-9756-fa8e4cd59968: 9168a890-5464-4615-82c1-08da8e3cfc6c
+  SourceState: !<own> 609f9cbc-ed7a-49fa-84e1-e422a8d8b9aa
+- !<SceneObject/f97e3337-6b09-46c4-aa06-48db83117225>
+  PrefabRemaps:
+    []
+  Name: Cube.001
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0806de4d-9bf6-4c26-b772-307f17ea0080

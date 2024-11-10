@@ -1,0 +1,170 @@
+- !<Material/e9a6c06a-f071-461f-86a2-d797ee94f261>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> c5aad9d4-15ba-4089-8be4-baffbd39aeb0
+- !<PassInfo/c5aad9d4-15ba-4089-8be4-baffbd39aeb0>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_11_DROPLIST_ITEM 1
+    - NODE_151_DROPLIST_ITEM 2
+    - NODE_41_DROPLIST_ITEM 1
+    - NODE_9_DROPLIST_ITEM 2
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    InnerEdgeEndingColor:
+      typeIdx: 5
+      value: {x: 0.988235, y: 0.819608, z: 0.101961, w: 1.000000}
+    InnerEdgeGradientRamp:
+      typeIdx: 1
+      value: 0.000000
+    InnerEdgeStartingColor:
+      typeIdx: 5
+      value: {x: 0.095842, y: 0.763714, z: 0.998215, w: 1.000000}
+    Port_Center_N025:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Center_N047:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Default_N010:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Default_N046:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Default_N077:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Default_N146:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    Port_Import_N017:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Import_N024:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Import_N026:
+      typeIdx: 3
+      value: {x: 0.000000, y: -0.500000}
+    Port_Import_N058:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    Port_Input0_N035:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input0_N066:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N014:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input1_N034:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N035:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input1_N043:
+      typeIdx: 1
+      value: 0.250000
+    Port_Input1_N054:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input1_N065:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N066:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N034:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N065:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N023:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N033:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N153:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N155:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N023:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N033:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N153:
+      typeIdx: 1
+      value: -1.010000
+    Port_RangeMaxB_N155:
+      typeIdx: 1
+      value: -1.510000
+    Port_RangeMinA_N023:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N033:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N153:
+      typeIdx: 1
+      value: -1.000000
+    Port_RangeMinA_N155:
+      typeIdx: 1
+      value: -1.000000
+    Port_RangeMinB_N023:
+      typeIdx: 1
+      value: -1.000000
+    Port_RangeMinB_N033:
+      typeIdx: 1
+      value: -1.000000
+    Port_RangeMinB_N153:
+      typeIdx: 1
+      value: -0.010000
+    Port_RangeMinB_N155:
+      typeIdx: 1
+      value: -0.510000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    backCapStartingColor:
+      typeIdx: 5
+      value: {x: 0.986755, y: 0.164767, z: 0.238819, w: 1.000000}
+    frontCapStartingColor:
+      typeIdx: 5
+      value: {x: 0.095842, y: 0.763714, z: 0.998215, w: 1.000000}
+    outerEdgeEndingColor:
+      typeIdx: 5
+      value: {x: 0.989441, y: 0.460960, z: 0.736614, w: 1.000000}
+    outerEdgeGradientRamp:
+      typeIdx: 1
+      value: 0.000000
+    outerEdgeStartingColor:
+      typeIdx: 5
+      value: {x: 0.997711, y: 0.902907, z: 0.046494, w: 1.000000}
+    overrideTimeDelta:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+  Pass: !<reference> f1997b49-f9a5-48df-8284-33041afc40bd

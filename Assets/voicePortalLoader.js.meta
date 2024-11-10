@@ -30,7 +30,7 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - vmlModule: !<reference.VoiceMLModule> 00000000-0000-0000-0000-000000000000
+    - vmlModule: !<reference.VoiceMLModule> 5c9fd51d-0c6f-4aa0-9b6f-370a2dd68fd3
       portalObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       portalControllerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:

@@ -1,0 +1,161 @@
+- !<Material/07d70ad5-b143-472e-a05c-5092484c7d51>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> badbdde2-6a69-4eb2-830d-d69f0a69f405
+- !<PassInfo/badbdde2-6a69-4eb2-830d-d69f0a69f405>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_ADVANCED
+  BlendMode: Disabled
+  Properties:
+    LitLookup:
+      typeIdx: 9
+      value:
+        id: dc78b883-ddcb-4e93-b11c-aa377df4cba5
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    LitLookupBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    LitLookupDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    LitLookupTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    LitLookupUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Input1_N014:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N030:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N057:
+      typeIdx: 1
+      value: 0.500000
+    Port_Input1_N134:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Input1_N135:
+      typeIdx: 3
+      value: {x: 0.500000, y: 0.500000}
+    Port_Value2_N120:
+      typeIdx: 1
+      value: 1.000000
+    Port_Value3_N132:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    alphaTestThresh:
+      typeIdx: 1
+      value: 0.130000
+    blurMultiplier:
+      typeIdx: 1
+      value: 1.000000
+    clumpInstanceCount:
+      typeIdx: 1
+      value: 0.000000
+    clumpRadius:
+      typeIdx: 1
+      value: 0.000000
+    clumpTipScale:
+      typeIdx: 1
+      value: 0.000000
+    diffuseLightColor:
+      typeIdx: 5
+      value: {x: 0.980000, y: 0.510000, z: 0.250000, w: 1.000000}
+    hairGrowth:
+      typeIdx: 1
+      value: 1.000000
+    hairRootsColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 0.370000, z: 0.240000, w: 1.000000}
+    hairTex:
+      typeIdx: 9
+      value:
+        id: a68a3f5b-9120-4f75-9270-150f22abf4ef
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    hairTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    hairTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    hairTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    hairTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    hairTipsColor:
+      typeIdx: 5
+      value: {x: 0.980000, y: 0.510000, z: 0.250000, w: 1.000000}
+    hairstyleInstanceCount:
+      typeIdx: 1
+      value: 0.000000
+    hairstyleNoise:
+      typeIdx: 1
+      value: 0.000000
+    litOffset:
+      typeIdx: 1
+      value: -0.451000
+    litRotation:
+      typeIdx: 1
+      value: 0.656000
+    mixEdge:
+      typeIdx: 1
+      value: 1.000000
+    mixSize:
+      typeIdx: 1
+      value: 1.000000
+    overrideTimeDelta:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+    specularLightColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 0.960000, z: 0.840000, w: 1.000000}
+    strandTaper:
+      typeIdx: 1
+      value: 0.000000
+    strandWidth:
+      typeIdx: 1
+      value: 0.000000
+  Pass: !<reference> 39999a51-7832-4933-bf51-da8e3bba2e1e
