@@ -1,6 +1,6 @@
 // voicePortalLoader.js
-// Version: 1.1.6
-// Description: Activates and deactivates the portal in response to voice commands.
+// Version: 1.1.8
+// Description: Activates and deactivates the portal in response to voice commands using Snap Spectacles.
 
 //@input Asset.VoiceMLModule vmlModule {"label": "Voice ML Module"}
 //@input SceneObject portalObject {"label": "Portal Object", "type": "SceneObject"}
@@ -24,22 +24,53 @@
         return;
     }
 
-    // Ensure the portal is disabled at the very start
-    script.portalObject.enabled = false;
-    print("Portal object initially disabled.");
+    // Disable portal object at the start to ensure it doesn't activate prematurely
+    ensurePortalDisabled();
+
+    // Enforce disabling for safety — Retry mechanism
+    var retryCount = 0;
+    var maxRetries = 5;
+
+    function ensurePortalDisabled() {
+        script.portalObject.enabled = false;
+        print("Portal object explicitly set to disabled.");
+
+        // Adding a recurring event to double-check the state
+        var retryEvent = script.createEvent("UpdateEvent");
+        retryEvent.bind(function() {
+            if (retryCount < maxRetries) {
+                if (script.portalObject.enabled) {
+                    script.portalObject.enabled = false;
+                    print("Portal object found enabled, disabling again. Retry #" + (retryCount + 1));
+                }
+                retryCount++;
+            } else {
+                retryEvent.enabled = false;
+            }
+        });
+    }
 
     // Add a slight delay to ensure that disabling takes effect properly before listening begins
     var delayedEvent = script.createEvent("DelayedCallbackEvent");
     delayedEvent.bind(function() {
         startListening();
     });
-    delayedEvent.reset(0.1); // Wait for 0.1 seconds before starting to listen
+    delayedEvent.reset(0.5); // Wait for 0.5 seconds before starting to listen (increased to ensure Spectacles are ready)
 
     // Function to Start VoiceML Listening
     function startListening() {
-        print("Starting VoiceML listening...");
-        script.vmlModule.startListening(getListeningOptions());
-        print("VoiceML started listening for portal commands.");
+        print("Attempting to start VoiceML listening...");
+
+        try {
+            if (script.vmlModule.isListeningEnabled) {
+                script.vmlModule.stopListening(); // Stop any previous listening if active
+            }
+
+            script.vmlModule.startListening(getListeningOptions());
+            print("VoiceML successfully started listening for portal commands.");
+        } catch (error) {
+            print("Error starting VoiceML listening: " + error.message);
+        }
     }
 
     // Set up VoiceML Listening Options
