@@ -1,5 +1,25 @@
 ExternalSources:
   type: "std::map<Es::Uuid, Es::Path>"
   value:
+    - 02881081-d619-427f-bf34-ec5986115d59: /Users/michaelchaves/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Soa Amata Fiafia Opening Dance.mp3
+    - 0ef7ab86-3795-467e-8f5d-d6ec2efa128c: /Users/michaelchaves/Downloads/Holi_Instrumental.wav
+    - 1ad3b52d-f2d3-4316-bb09-ccfd2e9b1823: /Users/michaelchaves/Downloads/brick1_Base_color.png
+    - 25aa6d20-5f4a-463b-be54-7c820d2c59fb: /Users/michaelchaves/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Somoa Portal 10.obj
+    - 4da2a2e9-4f95-403e-974f-837fcab453d4: /Users/michaelchaves/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Holi Description (1).mp3
+    - 51859ba1-b938-4dfb-a20f-8d3fc2efb1d4: /Users/michaelchaves/Downloads/brick1_Base_color.png
+    - 53f21f4a-852c-4c0c-9c04-c1d72227b2dc: /Users/michaelchaves/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Holi Portal 3.obj
+    - 7af439d0-8467-406a-952f-421194d48302: /Users/michaelchaves/Downloads/woodenSlab_Base_color.png
+    - 7eafd462-ad27-4199-9130-3e7a87b2a89b: /Users/michaelchaves/Downloads/bottomArchPiece_Normal_DirectX.png
+    - a3fbdd31-9a49-456d-a4f0-9699c2087d36: /Users/michaelchaves/Downloads/brick4_Base_color.png
+    - ad76030a-19ed-428b-bfed-e95ce3c53d06: /Users/michaelchaves/Downloads/doorFrame_Roughness.png
+    - b1d8aa43-fd59-4fbd-b9ee-685f6cb1a3c2: /Users/michaelchaves/Library/Mobile Documents/com~apple~CloudDocs/Downloads/sfPortal v2.obj
+    - b2fa9019-182e-4107-90b5-d3273344314d: /Users/michaelchaves/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Billie Holiday Blue Moon.mp3
+    - bbc46d3e-9603-48f5-ab92-658b1602ad23: /Users/michaelchaves/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Portal Intro Onboarding.mp3
+    - e0c16546-d47a-47d5-9fc9-501fc085af95: /Users/michaelchaves/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Holi Instrumental.mp4
+    - e683dba9-d7a8-41a9-8344-46c5b1025a0e: /Users/michaelchaves/Downloads/brick4_Roughness.png
+    - ea15970c-949e-41ef-8a38-02316eeeca69: /Users/michaelchaves/Downloads/bottomArchPiece_Metallic.png
+    - eda370ca-d427-44f3-bea4-61c199122a01: /Users/michaelchaves/Downloads/bottomArchPiece_Base_color.png
     - ef3d4a2e-804f-4542-8773-b858eb28cee8: /Users/michaelchaves/Library/Mobile Documents/com~apple~CloudDocs/Downloads/immersethebay-main/Assets/voicePortalLoader.js
+    - f3e313fa-3f8a-49fb-8b29-7a1895a28383: /Users/michaelchaves/Downloads/doorFrame_Base_color.png
+    - ff1e70de-f9c2-485e-a29e-7e65a076a799: /Users/michaelchaves/Downloads/plant1_Base_color.png
   options: 4

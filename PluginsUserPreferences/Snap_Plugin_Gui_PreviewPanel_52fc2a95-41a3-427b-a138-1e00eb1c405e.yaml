@@ -25,7 +25,7 @@ frontCameraMultimedia:
   options: 4
 fullscreenSpectaclesSimulation:
   type: bool
-  value: false
+  value: true
   options: 4
 lastPosition:
   type: vec3
