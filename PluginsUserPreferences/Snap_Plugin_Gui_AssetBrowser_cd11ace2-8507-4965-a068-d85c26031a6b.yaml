@@ -1,12 +1,13 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 506
+    size: 510
     values:
       - Device Camera Texture.deviceCameraTexture
       - Echopark.hdr
       - Echopark.hdr/Diffuse
       - Echopark.hdr/Specular
+      - Portal.lspkg
       - Portal.lspkg/Animations
       - Portal.lspkg/Animations/City.animationAsset
       - Portal.lspkg/Animations/Portal.animationAsset
@@ -276,6 +277,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Helpers/ScreenTransformAdapter.ts
       - SpectaclesInteractionKit/Components/Helpers/SliderFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/ToggleFeedback.ts
+      - SpectaclesInteractionKit/Components/Interaction
       - SpectaclesInteractionKit/Components/Interaction/Billboard
       - SpectaclesInteractionKit/Components/Interaction/Billboard/Billboard.ts
       - SpectaclesInteractionKit/Components/Interaction/Billboard/BillboardController.ts
@@ -509,4 +511,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
+      - VoiceML Module.voiceMLModule
+      - voicePortalLoader.js
   options: 4

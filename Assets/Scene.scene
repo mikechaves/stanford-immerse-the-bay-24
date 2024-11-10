@@ -445,6 +445,21 @@
   BodySettingValue: 1.000000
   Damping: 0.000000
   AngularDamping: 0.000000
+- !<SceneObject/0868e239-3915-4706-a1e5-a1bf2262533a>
+  PrefabRemaps:
+    []
+  Name: voicePortalHandler
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 38.474426, z: -145.970596}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.415288}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> abedc55b-1ff6-44d6-9c15-e9a791cda442
 - !<SceneObject/087606c4-867e-4814-bfda-1a1558dffe0e>
   PrefabRemaps:
     []
@@ -2263,6 +2278,7 @@
     - 0564bde8-653f-47d3-8ac8-518698d071bf: ea09e15f-26ac-438b-9d4b-d1b5302909cc
     - 05c0b501-35b9-48f7-a108-54fb645be1df: 78eab0f5-f9fb-4e58-96ba-f03726b7c039
     - 06b1f435-47f8-49c3-8555-5c99b8fb6bb7: 5f0091a2-6677-40b6-b0e3-f4fcebd9bca9
+    - 0868e239-3915-4706-a1e5-a1bf2262533a: 81d3524a-b3d9-45c9-a55e-8e3850f0caa8
     - 087606c4-867e-4814-bfda-1a1558dffe0e: 9136bbd7-9acb-471b-bc6f-82b59ca36cf4
     - 0a543ff2-8333-4e82-93dd-501d0823a51d: 73034401-5528-40a7-8a22-861c75ab646a
     - 0b337299-9834-4cbd-b73e-c1a7580aff08: f0c03848-1d8f-4a2a-a32a-389b0bf73cf0
@@ -2418,6 +2434,7 @@
     - a7c61b57-9274-4557-9e74-5ab7cad19d19: 2f11abd7-7c78-4f8a-9769-c74202b6f4e4
     - a8971c60-01c6-45e0-b28d-6820bf59713c: 81342722-139b-4bd6-878c-f80814a7498c
     - aacb528a-5bdd-4fdb-b1bb-8a0f12f02fb3: 951bc145-d3a6-4250-893d-c4813b93abba
+    - abedc55b-1ff6-44d6-9c15-e9a791cda442: 708dd381-04e6-4df4-9a48-618b07b5c122
     - abfdd15b-6e1d-469b-9619-e7218c166b72: 071cf2ff-e28a-47ae-be56-6c1dab942116
     - ac145730-9fea-4e90-8e1e-41f771da4907: e588be92-0af1-4aab-ac64-c8a04cb9e4bf
     - ae278a5f-cc00-4ae8-acb1-7962404ba7df: e92dc1d3-345b-4494-94de-463233d81e67
@@ -2499,17 +2516,18 @@
     - fe358c07-f1e7-4b56-bae7-dee742b8cb54: 1004d24c-0462-4af8-8141-ac9ea406cd00
     - fe66ac10-b1c3-4d80-8129-7ed0ad9369bc: 8186cfe5-62f3-426f-b8bf-984255b6b72b
     - ffb1362f-a7ec-4355-9db2-35ec981a1b53: 1070dba9-79cc-4ebc-b8d4-07822de7915e
-  Name: Portal__PLACE_IN_SCENE
+  Name: PortalParent
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -38.474426, z: 127.436989}
+    position: {x: 0.000000, y: -38.474426, z: 103.138466}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 0.706570}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> ea3766d5-48c1-4427-932d-36992628db6e
     - !<own> a3d1d44f-db90-435f-b9fb-52391c78573e
+    - !<own> ea3766d5-48c1-4427-932d-36992628db6e
+    - !<own> 0868e239-3915-4706-a1e5-a1bf2262533a
   Components:
     []
 - !<Text/2c10ed34-341d-44e5-8672-4de5c33a1054>
@@ -8586,7 +8604,7 @@
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -8848,6 +8866,24 @@
       squishObject: !<reference.SceneObject> a0554e71-ba6e-4d74-a8cb-42db84d22338
       verticalSquish: 0.600000
       horizontalSquish: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/abedc55b-1ff6-44d6-9c15-e9a791cda442>
+  PrefabRemaps:
+    []
+  Name: voicePortalLoader
+  Enabled: true
+  ScriptAsset: !<reference> f7f8d523-247f-48d5-bc61-35bee9287c3b
+  ScriptInputsDefault:
+    vmlModule: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      vmlModule: !<reference.VoiceMLModule> 556f74d7-de5b-4c00-8eaa-8144a7bfbd83
+      portalObject: !<reference.SceneObject> ea3766d5-48c1-4427-932d-36992628db6e
+      portalControllerObject: !<reference.SceneObject> a3d1d44f-db90-435f-b9fb-52391c78573e
   ScriptTypes:
     "":
       {}
@@ -11811,12 +11847,12 @@
 - !<SceneObject/ea3766d5-48c1-4427-932d-36992628db6e>
   PrefabRemaps:
     []
-  Name: "Portal [EDIT_ME]"
-  Enabled: true
+  Name: Portal
+  Enabled: false
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: -180.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 0.000000, z: -179.999985}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:

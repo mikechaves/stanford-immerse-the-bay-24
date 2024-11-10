@@ -1,0 +1,38 @@
+- !<AssetImportMetadata/9669d9b2-fa78-41f1-ab74-58624fc45562>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f7f8d523-247f-48d5-bc61-35bee9287c3b
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f7f8d523-247f-48d5-bc61-35bee9287c3b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 7b819cb8-9a32-4163-9aa3-3d2757f9c91c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/f4236110-4574-4183-9643-2ab830531502>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/7b819cb8-9a32-4163-9aa3-3d2757f9c91c>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    portalControllerObject: false
+    portalObject: false
+    vmlModule: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - vmlModule: !<reference.VoiceMLModule> 556f74d7-de5b-4c00-8eaa-8144a7bfbd83
+      portalControllerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      portalObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
